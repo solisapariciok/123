@@ -1,0 +1,16 @@
+{
+"name": "dog-api-secure",
+"version": "1.0.0",
+"description": "Secure Dog API project using Node.js + Express + dotenv",
+"main": "server.js",
+"type": "module",
+"scripts": {
+"start": "node server.js",
+"dev": "nodemon server.js"
+},
+"dependencies": {
+"dotenv": "^16.4.5",
+"express": "^4.19.2",
+"node-fetch": "^3.3.2"
+}
+}
